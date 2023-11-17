@@ -32,6 +32,8 @@ public class ScannerEx {
 		System.out.println("당신의 나이는" + age + "입니다");
 		System.out.println("당신의 체중은" + weight +"입니다");
 		
+		scanner.close(); //close를 안 하면 계속 스캔하게 됨
+		
 	}
 
 }
