@@ -25,7 +25,7 @@ public class Operator01 {
 		 * 문자열 + 숫자 => 문자열 ('+' 연결 연산자)
 		 * 
 		 */
-		String sumStr = num1 + "+" + num2 + "=" + sum;
+		String sumStr = num1 + "+" + num2 + "=" + sum; //'+'가 연결 연산자 역할; 문자와 변수 연결
 		System.out.println("sumStr: " + sumStr);
 		//두 수의 곱
 		int multiply = num1 * num2;
