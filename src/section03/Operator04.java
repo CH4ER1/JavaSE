@@ -6,8 +6,6 @@ package section03;
  * 	||: Or 조건, 교집합 개념, 두 항 중 하나 이상 true 일 때 true
  * 	!: Not 조건, 여집합 개념, 논리(boolean) 값 반전시킴
  * 
- * 
- * 
  */
 
 public class Operator04 {
