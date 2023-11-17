@@ -36,6 +36,6 @@ public class Variable05 {
 		System.out.println(d);
 		System.out.println(bd.toPlainString());
 	}
-	
+
 
 }

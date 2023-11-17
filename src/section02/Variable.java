@@ -11,7 +11,7 @@ package section02;
  * 	자바에서 기본적으로 제공해주는 자료형
  * 		정수형  - byte, short, int, long
  * 		실수형  -float, double
- * 		문자형- char, 문자 한 글자
+ * 		문자형- char //문자 한 글자
  * 		논리형 - boolean
  * 
  */
