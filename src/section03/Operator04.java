@@ -29,7 +29,7 @@ public class Operator04 {
 		}
 		
 		
-		boolean result3 = true || false; // false || false 일 때만 false
+		boolean result3 = true || false ; // false || false 일 때만 false
 		System.out.println("result3: " + result3);
 		
 		String brand = "LG 전자"; // 입력값
