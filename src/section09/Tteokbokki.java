@@ -9,7 +9,7 @@ public class Tteokbokki {
 	public boolean isCheese;
 	public int spicyLv;
 	
-	public Tteokbokki() {
+	public Tteokbokki() { //매개변수 X
 		this.brand = "배떡";
 		this.riceCake = "밀떡";
 		this.sauce = "마라로제";
@@ -19,7 +19,7 @@ public class Tteokbokki {
 	
 	//오버로딩
 	public Tteokbokki(String brand, String riceCake, String sauce, 
-			boolean isCheese, int spicyLv) {
+			boolean isCheese, int spicyLv) { //매개변수 O
 		this.brand = brand;
 		this.riceCake = riceCake;
 		this.sauce = sauce;
