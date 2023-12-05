@@ -2,7 +2,7 @@ package section11.access2;
 
 public class Coffee extends Drink{
 
-	private boolean isDecaf;
+	public boolean isDecaf;
 	public Coffee() {
 		name = "Classic Milk Coffee";
 		type = "Coffee";
