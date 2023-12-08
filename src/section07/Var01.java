@@ -35,16 +35,20 @@ package section07;
 public class Var01 {
 	
 	// 전역변수, class에 종속
+	// 기본형, 전역, 동적
 	static int globalVar = 10;
 	
 	public static void localMethod() {
-		//지역변수 선언, method에 종속
-		int localVar = 20; //지역변수 초기화 필수
+		//지역변수 선언, method에 종속, static X
+		int localVar = 20; // 지역변수 초기화 필수
+		Car car = new Car();
 		System.out.println("전역변수 호출하기: " + globalVar);
 		System.out.println("지역변수 호출하기: " + localVar);
 	}
 	
 	public static void main(String[] args) {
+		//지역변수, 참조형변수
+		Var01 var01 = new Var01();
 		
 		System.out.println("전역변수 호출하기: " + globalVar);
 		//System.out.println("지역변수 호출하기: " + localVar);
