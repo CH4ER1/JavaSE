@@ -1,6 +1,9 @@
 package Section16;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
 
 /*
  * List (중요, 유사 배열)
@@ -35,6 +38,41 @@ public class Collection02 {
 		list.remove(3);
 		System.out.println("list[3]: " + list.get(3));
 		
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println("list: " + list.get(i));
+		}
+		
+		System.out.println("==========================");
+		
+		// 특정 인덱스 데이터 삽입 (중간에 끼워넣기)
+		list.add(4, "잠만보"); //3, 4 사이
+		
+		// 향상된 for문
+		for (String name: list) {
+			System.out.println("name: " + name);
+		}
+		
+		System.out.println("===========================");
+		
+		//LinkedList: 삽입, 삭제가 쉬움
+		List<String> linkedList = new LinkedList<String>();
+		linkedList.add("메타몽");
+		linkedList.add("이브이");
+		
+		for (String mon: linkedList) {
+			System.out.println("mon: " + mon);
+		}
+		
+		System.out.println("===========================");
+		
+		// ArrayList와 동일한 기능 + Thread Safe
+		Vector<String> vec = new Vector<String>();
+		vec.add("아이언맨");
+		vec.add("스파이더맨");
+		
+		for (String hero: vec) {
+			System.out.println("hero: " + hero);
+		}
 	}
 
 }

@@ -5,9 +5,6 @@ package section13;
  * 	Outer$Inner.class
  * 	내부 클래스도 외부 클래스 안에 코드를 작성하지만 별도의 클래스이기에 컴파일 시 별도로 생성됨
  * 
- * 
- * 
- * 
  */
 public class OuterClass02 {
 
