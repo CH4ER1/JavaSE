@@ -1,4 +1,4 @@
-package Section16;
+package section16;
 
 public class MyClass<T> {
 

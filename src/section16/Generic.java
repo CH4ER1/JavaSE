@@ -1,4 +1,4 @@
-package Section16;
+package section16;
 
 /*
  * 제네릭 (Generic)

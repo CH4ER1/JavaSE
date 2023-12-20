@@ -1,4 +1,4 @@
-package Section16;
+package section16;
 
 import java.util.ArrayList;
 import java.util.HashMap;
